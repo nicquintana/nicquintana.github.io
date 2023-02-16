@@ -1,13 +1,39 @@
-body{
+body {
     font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
 }
-
 h1,
-h2{
+h2 {
     font-family: 'Times New Roman', Times, serif;
 }
-
-h2{
+h3{
+    font-family: 'Courier New', Courier, monospace;
+    font-style: oblique;
+    margin: 2em 0;
+}
+h1 {
+    text-align: center;
+    font-size: 2.5em;
+    color: #4EEA10;
+}
+h2 {
     font-style: italic;
+    border-left: 18cm;
+}
+.images {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
+}
+section {
+    margin: 3em 0;
+}
+.seriesList img {
+    width: 35%;
+}
+.seriesList h2 {
+    text-align: center;
+    color: #C7EA10;
+    margin-top: 2em;
 }
