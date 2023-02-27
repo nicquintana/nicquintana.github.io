@@ -1,0 +1,11 @@
+h1 {
+    font-family: 'Orbitron', sans-serif;
+    font-weight: bold;
+    margin: 3em;
+}
+p {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+.top{
+    margin-bottom: auto;
+}
