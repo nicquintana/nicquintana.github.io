@@ -1,11 +1,26 @@
 h1 {
     font-family: 'Orbitron', sans-serif;
     font-weight: bold;
-    margin: 3em;
+    margin: 3em 0;
 }
+ul,
 p {
     font-family: 'Barlow Semi Condensed', sans-serif;
 }
-.top{
-    margin-bottom: auto;
+.options {
+    border: 10px;
+    background-color: #F8DCD1;
+    border-style: solid;
+    border-color: #F8DCD1;
+    margin: 0 1em;
+}
+.intro {
+    margin: 3em 0;
+}
+.address p,
+.copyright p{
+    margin: 0;
+}
+.copyright p{
+    text-align: center;
 }
