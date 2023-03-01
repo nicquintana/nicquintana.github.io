@@ -18,9 +18,12 @@ p {
     margin: 3em 0;
 }
 .address p,
-.copyright p{
+.copyright p {
     margin: 0;
 }
-.copyright p{
+.copyright p {
     text-align: center;
+}
+section {
+    margin: 10em;
 }
