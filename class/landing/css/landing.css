@@ -7,12 +7,8 @@ ul,
 p {
     font-family: 'Barlow Semi Condensed', sans-serif;
 }
-.options {
-    border: 10px;
+nav {
     background-color: #F8DCD1;
-    border-style: solid;
-    border-color: #F8DCD1;
-    margin: 0 1em;
 }
 .intro {
     margin: 3em 0;
@@ -24,6 +20,7 @@ p {
 .copyright p {
     text-align: center;
 }
-section {
-    margin: 10em;
+footer {
+    margin: 10em 0;
+    text-align: center;
 }
