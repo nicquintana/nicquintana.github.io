@@ -1,0 +1,42 @@
+body {
+    background-color: #c2d8ff;
+}
+header {
+    text-align: right;
+    margin: 2em;
+    word-spacing: 2em;
+    font-family: 'Arimo', sans-serif;
+    font-weight: 800;
+}
+main {
+    font-family: 'Bitter', serif;
+}
+a {
+    color: #000000;
+    text-decoration: none;
+}
+.name {
+    text-align: center;
+    padding: 2em;
+}
+.name p {
+    padding: 2em;
+}
+h4 {
+    font-weight: bold;
+}
+.Job1 {
+    padding-top: 5em;
+}
+.map {
+    padding: 2em 0;
+}
+i {
+    font-size: 24px;
+}
+.info {
+    padding: 5em 1em;
+}
+.social {
+    font-weight: bold;
+}
