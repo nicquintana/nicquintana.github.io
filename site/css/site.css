@@ -1,6 +1,7 @@
 body {
     background-color: #c2d8ff;
 }
+
 header {
     text-align: right;
     margin: 2em;
@@ -8,35 +9,85 @@ header {
     font-family: 'Arimo', sans-serif;
     font-weight: 800;
 }
+
 main {
     font-family: 'Bitter', serif;
 }
+
 a {
     color: #000000;
     text-decoration: none;
 }
+
 .name {
     text-align: center;
     padding: 2em;
 }
+
 .name p {
     padding: 2em;
 }
-h4 {
+
+h4,
+h5 {
     font-weight: bold;
 }
+
 .Job1 {
-    padding-top: 5em;
+    padding-top: 3em;
 }
+
 .map {
     padding: 2em 0;
 }
+
 i {
     font-size: 24px;
 }
+
 .info {
     padding: 5em 1em;
 }
+
 .social {
     font-weight: bold;
+}
+
+.video-container {
+    max-width: 1000px;
+    margin: 2em auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+.video-box {
+    width: 400px;
+    margin: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+video {
+    width: 100%;
+    height: auto;
+}
+
+@media (max-width: 600px) {
+    .video-box {
+        width: calc(100% - 40px);
+        margin: 20px 0;
+    }
+}
+.education{
+    padding: 5em 0;
+}
+.college {
+    padding-bottom: 3em;
+}
+.highschool {
+    padding-top: 3em;
+}
+main{
+    padding-top: 5em;
 }
