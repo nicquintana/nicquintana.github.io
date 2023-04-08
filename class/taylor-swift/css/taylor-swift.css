@@ -3,7 +3,6 @@ header {
     padding-top: 10em;
     padding-bottom: 10em;
 }
-
 header p {
     font-size: .65em;
     letter-spacing: 1.5px;
@@ -11,17 +10,14 @@ header p {
     color: #fafafa;
     font-weight: 200;
 }
-
 .top {
     padding-top: 2em;
 }
-
 h1 {
     font-size: 3em;
     font-weight: 700;
     color: #fafafa;
 }
-
 h1,
 h2,
 h3,
@@ -29,17 +25,14 @@ h4 {
     font-family: 'Cabin Condensed', sans-serif;
     font-weight: 700;
 }
-
 h2,
 h4 {
     font-size: 1.5em;
 }
-
 h3 {
     font-size: 1.25em;
     text-transform: uppercase;
 }
-
 body a,
 footer a {
     text-decoration: underline;
@@ -47,22 +40,18 @@ footer a {
     color: black;
     font-weight: 600;
 }
-
 body a:hover,
 footer a:hover {
     color: #b2322d;
 }
-
 header a {
     font-weight: 600;
     color: #fafafa;
 }
-
 body p {
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
 }
-
 .p1,
 .p3,
 .p4,
@@ -73,27 +62,35 @@ body p {
 .p8 {
     padding-top: 3em;
 }
-
 h4 {
     padding: 2em;
     text-align: center;
     color: #b2322d;
 }
-
 .p4 {
     font-size: .95em;
 }
-
 .p4 b {
     background-color: #b2322d;
     padding: 3px;
     color: #fafafa;
     letter-spacing: 1px;
 }
-
 footer p {
     color: gray;
     font-size: .85em;
     text-align: center;
     padding-bottom: 2em;
+}
+@media screen and (max-width: 768px) {
+    header {
+        text-align: center;
+        padding-top: 15em;
+        padding-bottom: 15em;
+    }
+}
+@media screen and (max-width: 375px) {
+    h4 {
+        padding-bottom: 5em;
+    }
 }
